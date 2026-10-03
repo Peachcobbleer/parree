@@ -171,7 +171,7 @@ body.atm .hud,body.atm #cross{display:none}
 <div class="hud" id="bl"><div id="hpbar"><div id="hp"></div></div><div id="spd"></div></div>
 <div class="hud" id="ultb"><div id="ulti"></div><div class="tr"><div id="ultf"></div><div class="pp"><i></i><i></i><i></i><i></i><i></i></div></div><div class="lb" id="ultl"></div></div><div class="hud" id="frz"></div><div id="dead"><h1>YOU DIED</h1><div id="dcause"></div><div id="drs"></div></div><div class="hud" id="wb"></div><div class="hud" id="ammo"></div>
 <div id="ov"><div id="mm"><div id="kick">FIRST-PERSON PARRY ACTION</div><h1 id="t1">PARRY ARENA</h1><p id="t2">Deflect. Destroy. Stay stylish.</p><div id="coins">COINS 0</div><div class="bt"><button class="btn" id="go">PLAY</button><button class="btn" id="pb">PRACTICE</button><button class="btn" id="mb">MULTIPLAYER</button><div class="g2"><button class="btn" id="shb">SHOP</button><button class="btn" id="sknb">SKINS</button><button class="btn" id="cb">CUSTOMIZE</button><button class="btn" id="frb">FRIENDS</button><button class="btn" id="skb">SKILLS</button><button class="btn" id="ulb" style="color:var(--gold);border-color:var(--gold)">ULTIMATES</button><button class="btn" id="tub">TUTORIAL</button><button class="btn" id="ixb">INDEX</button><button class="btn" id="ab">ACCOUNT</button><button class="btn" id="sb">SETTINGS</button></div><button class="btn" id="qt" style="display:none;color:var(--mag);border-color:var(--mag)">LEAVE GAME</button><button class="btn" id="lv" style="display:none;color:var(--mag);border-color:var(--mag)">LEAVE LOBBY</button></div></div><div id="shp"></div><div id="acp"></div>
-<div id="mpp" style="display:none"><h2>MULTIPLAYER</h2><div id="mst">1v1 duel over peer-to-peer. One player hosts and shares the 4-letter code, the other joins with it.</div><div class="bt"><button class="btn" id="mh">HOST</button><input id="mcode" placeholder="CODE" maxlength="4"><button class="btn" id="mj">JOIN</button><button class="btn" id="mbk">BACK</button></div></div><div id="cp"></div><div id="sp" style="display:none"><h2>SETTINGS</h2><div id="set"><section><h3>CONTROLS</h3><label><span class="lr">Sensitivity<b id="v_sens"></b></span><input id="sens" type="range" min="1" max="10" step="0.5" value="4"></label><label><span class="lr">Field of view<b id="v_fovs"></b></span><input id="fovs" type="range" min="60" max="110" step="1" value="75"></label></section><section><h3>AUDIO</h3><label><span class="lr">Music<b id="v_mus"></b></span><input id="mus" type="range" min="0" max="10" step="0.5" value="6"></label><label><span class="lr">Sound FX<b id="v_sfxv"></b></span><input id="sfxv" type="range" min="0" max="10" step="0.5" value="8"></label></section><section><h3>DISPLAY</h3><label><span class="lr">GUI scale<b id="v_gs"></b></span><input id="gs" type="range" min="50" max="150" step="10" value="100"></label><label><span class="lr">Graphics</span><select id="gfx"><option value="0">Low</option><option value="1">Medium</option><option value="2" selected>High</option><option value="3">Ultra (bloom + glow)</option></select></label><label><span class="lr">FPS counter</span><select id="fpsc"><option value="0" selected>Off</option><option value="1">On</option></select></label></section></div><div id="ctl"><h3>KEYBINDS</h3><div class="kg"><div><kbd>WASD</kbd><span>Move</span></div><div><kbd>Space</kbd><span>Jump / wall-jump</span></div><div><kbd>Shift</kbd><span>Dash</span></div><div><kbd>C</kbd><span>Slide</span></div><div><kbd>Left click / L / Z / E</kbd><span>Attack / shoot</span></div><div><kbd>Right click</kbd><span>Aim / Hammer slam (Warhammer ultimate)</span></div><div><kbd>F</kbd><span>Parry</span></div><div><kbd>V</kbd><span>Melee slash (guns fused with a Katana)</span></div><div><kbd>E</kbd><span>Pick up / terminal (else shoots)</span></div><div><kbd>1 2 3 / Wheel</kbd><span>Switch weapon</span></div><div><kbd>Arrow keys</kbd><span>Look without mouse</span></div></div><p>Time a parry right as a gold flash warns you to smack projectiles back. Parry a melee swing to stagger it. Equip an ultimate in the ULTIMATES menu. Kills charge the bar on the right of the screen and the ultimate activates by itself when it is full. With the Warhammer ultimate, right click (or Q) to slam. Every 5th round is a boss.</p></div><button class="btn" id="stb">STATISTICS</button><button class="btn" id="bk">BACK</button></div></div>
+<div id="mpp" style="display:none"><h2>MULTIPLAYER</h2><div id="mst">1v1 duel over peer-to-peer. One player hosts and shares the 4-letter code, the other joins with it.</div><div class="bt"><button class="btn" id="mh">HOST</button><input id="mcode" placeholder="CODE" maxlength="4"><button class="btn" id="mj">JOIN</button><button class="btn" id="mbk">BACK</button></div></div><div id="cp"></div><div id="sp" style="display:none"><h2>SETTINGS</h2><div id="set"><section><h3>CONTROLS</h3><label><span class="lr">Sensitivity<b id="v_sens"></b></span><input id="sens" type="range" min="1" max="10" step="0.5" value="4"></label><label><span class="lr">Field of view<b id="v_fovs"></b></span><input id="fovs" type="range" min="60" max="110" step="1" value="75"></label></section><section><h3>AUDIO</h3><label><span class="lr">Music<b id="v_mus"></b></span><input id="mus" type="range" min="0" max="10" step="0.5" value="6"></label><label><span class="lr">Sound FX<b id="v_sfxv"></b></span><input id="sfxv" type="range" min="0" max="10" step="0.5" value="8"></label></section><section><h3>DISPLAY</h3><label><span class="lr">GUI scale<b id="v_gs"></b></span><input id="gs" type="range" min="50" max="150" step="10" value="100"></label><label><span class="lr">Graphics</span><select id="gfx"><option value="0">Low</option><option value="1">Medium</option><option value="2" selected>High</option><option value="3">Ultra (bloom + glow)</option></select></label><label><span class="lr">FPS counter</span><select id="fpsc"><option value="0" selected>Off</option><option value="1">On</option></select></label></section></div><div id="ctl"><h3>KEYBINDS</h3><div class="kg"><div><kbd>WASD</kbd><span>Move</span></div><div><kbd>Space</kbd><span>Jump / wall-jump</span></div><div><kbd>Shift</kbd><span>Dash</span></div><div><kbd>C</kbd><span>Slide</span></div><div><kbd>Left click / Z / E</kbd><span>Attack / shoot</span></div><div><kbd>Right click</kbd><span>Aim / Hammer slam (Warhammer ultimate)</span></div><div><kbd>F</kbd><span>Parry</span></div><div><kbd>V</kbd><span>Melee slash (guns fused with a Katana)</span></div><div><kbd>E</kbd><span>Pick up / terminal (else shoots)</span></div><div><kbd>1 2 3 / Wheel</kbd><span>Switch weapon</span></div><div><kbd>Arrow keys</kbd><span>Look without mouse</span></div></div><p>Time a parry right as a gold flash warns you to smack projectiles back. Parry a melee swing to stagger it. Equip an ultimate in the ULTIMATES menu. Kills charge the bar on the right of the screen and the ultimate activates by itself when it is full. With the Warhammer ultimate, right click (or Q) to slam. Every 5th round is a boss.</p></div><button class="btn" id="stb">STATISTICS</button><button class="btn" id="bk">BACK</button></div></div>
 <div class="hud" id="hint"></div><div id="sl"><h1>SLOT MACHINE</h1><p>Pick two weapons to gamble. Three matching symbols fuse them into one stronger weapon. Anything else and both are lost.</p><div id="sw"></div><div id="rl"><span>?</span><span>?</span><span>?</span></div><div id="sr"></div><div style="display:flex;gap:12px"><button class="card" id="spin">SPIN</button><button class="card" id="slx">Walk away</button></div></div><div id="up"><h1>Terminal</h1><div id="cards"></div></div><script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js"></script>
 <script>
@@ -510,7 +510,7 @@ const K={};let yaw=0,pitch=0,running=false,dead=false,wasLocked=false;
 const P={pos:new THREE.Vector3(),vy:0,vel:new THREE.Vector3(),hp:100,h:1.7,sl:0,wall:0,wt:0,wj:0,wn:[0,0],dash:0,dashCd:0,mom:0};
 let wi=0,atkCd=0,swingT=0,parryT=0,parryCd=0,stopT=0,shake=0,kick=0,T=0;
 let kills=0,score=0,meter=0,lastKillW=-1,lastKillT=-9,combo=0,spawnT=1;
-const enemies=[],projs=[],parts=[];let charging=false,chg=0,held=false,kbx=0,kbz=0;
+var CR={on:0,go:0,boss:1,k:null,en:{}};const enemies=[],projs=[],parts=[];let charging=false,chg=0,held=false,kbx=0,kbz=0;
 const eye=()=>new THREE.Vector3(P.pos.x,P.pos.y+P.h,P.pos.z);
 const fwd=()=>new THREE.Vector3(-Math.sin(yaw)*Math.cos(pitch),Math.sin(pitch),-Math.cos(yaw)*Math.cos(pitch));
 const tierOf=()=>{let t=0;TIERS.forEach((x,i)=>{if(meter>=x[2])t=i});return t};
@@ -527,10 +527,10 @@ function mpToStart(){P.pos.set(0,0,MP.host?hz-4:-hz+4);P.vel.set(0,0,0);P.vy=0;P
 function die(){if(MP.on){if(MP.dd)return;MP.d++;const lh=MP.lh||{};mpSend({t:'k',k:lh.k,n:lh.n,hm:lh.hm});MP.dd=1;MP.rt=3;uaEnd('died');HM.ch=0;ULT.ph=0;ULT.mk.visible=false;P.hp=U.maxHp;mpToStart();$('dcause').textContent=deathText(MP.lh);MP.lh=null;$('drs').textContent='RESPAWNING IN 3...';$('dead').style.display='flex';sfx('hurt');flash('#ff2d6f',.6);return}if(isBR())try{const b=+localStorage.getItem('parryBR')||0;if(round>b)localStorage.setItem('parryBR',round)}catch(e){}dead=true;running=false;document.exitPointerLock&&document.exitPointerLock();$('t1').textContent='YOU DIED';$('t2').innerHTML=(isBR()?'Boss Rush round: <em>'+round+'</em> &nbsp; ':'')+'Kills: <em>'+kills+'</em> &nbsp; Score: <em>'+score+'</em> &nbsp; Best rank: <em>'+TIERS[best][0]+'</em> &nbsp; Coins: <em>+'+runCoins+'</em>';$('go').textContent='RESTART';showMM()}
 let best=0;
 
-function spawn(fr,gx){let x,z;do{const an=Math.random()*6.283,rr=(.3+.7*Math.random())*(hx-3);x=Math.cos(an)*rr;z=Math.sin(an)*rr}while(Math.hypot(x-P.pos.x,z-P.pos.z)<16||covers.some(c=>Math.abs(x-c.x)<c.hw+1.6&&Math.abs(z-c.z)<c.hd+1.6));const rusher=fr===undefined?Math.random()<.35:!!fr,gn=!!gx&&!rusher&&!PRAC.on&&!MP.on&&!TUT.on&&round>=2&&Math.random()<Math.min(.4,.15+round*.03);
+function spawn(fr,gx){if(CR.on&&!CR.k)return crSpawn(fr);let x,z;do{const an=Math.random()*6.283,rr=(.3+.7*Math.random())*(hx-3);x=Math.cos(an)*rr;z=Math.sin(an)*rr}while(Math.hypot(x-P.pos.x,z-P.pos.z)<16||covers.some(c=>Math.abs(x-c.x)<c.hw+1.6&&Math.abs(z-c.z)<c.hd+1.6));const rusher=CR.k?!!CRK[CR.k].r:fr===undefined?Math.random()<.35:!!fr,gn=CR.k?CR.k==='gunner':!!gx&&!rusher&&!PRAC.on&&!MP.on&&!TUT.on&&round>=2&&Math.random()<Math.min(.4,.15+round*.03);
 const H=(rusher||gn)?humanoid():droneModel(),HP=Math.max(1,Math.round((((rusher||gn)?6:7)+Math.floor(round*1.2))*DD('hp'))),mesh=H.g;
 mesh.position.set(x,(rusher||gn)?.9:4,z);scene.add(mesh);
-enemies.push({mesh,rusher,mats:H&&H.mats,arm:H&&H.arm,arm2:H&&H.arm2,legs:H&&H.legs,wu:0,stun:0,wp:Math.random()*6,fl:0,hp:HP,max:HP,rot:H.rot,aim:0,flash:0,fire:1.5+Math.random()*2,cd:0,dir:Math.random()<.5?1:-1});const ne=enemies[enemies.length-1];if(gn){ne.gunner=1;ne.cm=1.3;if(!XS.gunner){XS.gunner=1;feed('GUNNER: fires bullets - parry them back','#ffc233')}}else xt(ne,rusher)||varnt(ne,rusher);applyModel(ne)}
+enemies.push({mesh,rusher,mats:H&&H.mats,arm:H&&H.arm,arm2:H&&H.arm2,legs:H&&H.legs,wu:0,stun:0,wp:Math.random()*6,fl:0,hp:HP,max:HP,rot:H.rot,aim:0,flash:0,fire:1.5+Math.random()*2,cd:0,dir:Math.random()<.5?1:-1});const ne=enemies[enemies.length-1];if(gn){ne.gunner=1;ne.cm=1.3;if(!XS.gunner){XS.gunner=1;feed('GUNNER: fires bullets - parry them back','#ffc233')}}else CR.k?crApply(ne,CR.k):xt(ne,rusher)||varnt(ne,rusher);applyModel(ne)}
 function nextType(){const nd=enemies.filter(e=>!e.rusher&&!e.boss).length,nr=enemies.filter(e=>e.rusher&&!e.boss).length,cd=Math.min(4,1+Math.ceil(round/3)),cr=Math.min(7,2+Math.ceil(round/2));let r=Math.random()<Math.min(.62,.45+round*.02);if(r&&nr>=cr)r=false;if(!r&&nd>=cd)r=true;return r?1:0}
 function removeEnemy(e){scene.remove(e.mesh);if(e.ln)scene.remove(e.ln);enemies.splice(enemies.indexOf(e),1)}
 function humanoid(){const b=mkBot({arm:0x2b1414,dk:0x110707,gl:0xff8800,ac:0x7a1000,head:3,f:1,evil:1}),g=new THREE.Group();b.g.scale.setScalar(1.15);b.g.position.y=-.9;g.add(b.g);return{g,mats:[b.gm],arm:b.ar,arm2:b.al,legs:[b.rg[0],b.rg[1]]}}
@@ -554,11 +554,19 @@ const M={
 drone:()=>droneModel(),
 heavy:()=>droneModel({dk:0x3a1a0c,bl:0xa0501c,ec:0x331108,em:0xff5d2e,x:(g,bx,dk,bl,em)=>{bx(1.1,.14,1.4,0,.42,0,dk,g);bx(1.2,.1,.5,0,-.3,.3,bl,g);[-1,1].forEach(s=>{bx(.16,.16,.9,s*.55,-.1,.5,dk,g);bx(.1,.1,.1,s*.55,-.1,1,em,g)})}}),
 sniper:()=>droneModel({dk:0x1c1030,bl:0x5a3a90,ec:0x1a0a30,em:0xb58cff,x:(g,bx,dk,bl,em)=>{bx(.1,.1,2.2,0,0,1.8,dk,g);bx(.16,.16,.5,0,0,1.1,bl,g);bx(.14,.14,.14,0,0,2.95,em,g);bx(.06,.06,.5,0,.12,.9,dk,g);const sc=new THREE.Mesh(new THREE.TorusGeometry(.2,.04,6,16),em);sc.position.set(0,.22,.7);g.add(sc)}}),
-wasp:()=>{const g=new THREE.Group(),y=Mt(0xffc21a,0x402800,{flatShading:true}),k=Mt(0x15110a,0,{flatShading:true}),em=Mt(0x331a00,0xffb13b,{flatShading:true}),wm=new THREE.MeshBasicMaterial({color:0xcfe8ff,transparent:true,opacity:.4,side:THREE.DoubleSide});
-S(.3,y,0,0,.15,g);S(.2,k,0,.02,.55,g);[-1,1].forEach(s=>X(.08,.08,.05,em,s*.1,.06,.7,g));
-for(let i=0;i<4;i++)S(.26-.03*i,i%2?k:y,0,0,-.2-.28*i,g);
-C(.07,.3,k,0,0,-1.45,g,5).rotation.x=-Math.PI/2;
-const rot=[-1,1].map(s=>{const r=new THREE.Group();r.position.set(0,.34,.05);g.add(r);const w=new THREE.Mesh(new THREE.PlaneGeometry(.8,.28),wm);w.rotation.x=-Math.PI/2;w.position.x=s*.5;r.add(w);return r});
+wasp:()=>{const g=new THREE.Group(),y=Mt(0xffc21a,0x4a3000,{flatShading:true}),k=Mt(0x15110a,0,{flatShading:true,metalness:.75,roughness:.35}),or=Mt(0xe8890c,0x1a0c00,{flatShading:true,metalness:.6}),em=Mt(0x331a00,0xffb13b,{flatShading:true}),wm=new THREE.MeshBasicMaterial({color:0xcfe8ff,transparent:true,opacity:.4,side:THREE.DoubleSide});
+const hd=X(.26,.22,.24,k,0,0,.44,g);X(.2,.06,.05,em,0,.04,.57,g);X(.12,.05,.04,y,0,-.07,.55,g);
+[-1,1].forEach(s=>{S(.055,em,s*.13,.03,.46,g);X(.04,.11,.04,or,s*.05,-.12,.58,g).rotation.z=s*.35;
+const an=Y(.013,.013,.4,or,s*.07,.21,.72,g,5);an.rotation.x=1;S(.028,em,s*.07,.32,.89,g)});
+const th=new THREE.Mesh(new THREE.IcosahedronGeometry(.2,0),k);th.position.set(0,.02,.16);th.scale.set(1,.9,1.25);g.add(th);
+X(.08,.03,.12,y,0,.2,.14,g);[-1,1].forEach(s=>X(.03,.07,.08,y,s*.18,.05,.2,g));
+Y(.045,.045,.14,k,0,0,-.07,g,6).rotation.x=Math.PI/2;
+const Rz=.4,Ry=.22,z0=-.08,D=Math.PI/180,pt=f=>[-Ry+Ry*Math.cos(f),z0-Rz*Math.sin(f)];
+for(let i=0;i<6;i++){const f=(10+i*38)*D,q=pt(f),r=.17-.018*i;Y(r*.9,r,.21,i%2?k:y,0,q[0],q[1],g,8).rotation.x=Math.atan2(-Rz*Math.cos(f),-Ry*Math.sin(f));
+if(i===1){const ny=Math.cos(f),nz=-Math.sin(f);X(.1,.025,.1,em,0,q[0]+ny*.15,q[1]+nz*.15,g).rotation.x=Math.atan2(nz,ny)}}
+{const f=200*D,q=pt(f),ty=-Ry*Math.sin(f),tz=-Rz*Math.cos(f),L=Math.hypot(ty,tz),ux=ty/L,uz=tz/L;C(.06,.26,k,0,q[0]+ux*.23,q[1]+uz*.23,g,5).rotation.x=Math.atan2(tz,ty);S(.032,em,0,q[0]+ux*.37,q[1]+uz*.37,g)}
+[.3,.16,.02].forEach(z=>[-1,1].forEach(s=>{Y(.022,.018,.2,or,s*.2,0,z,g,5).rotation.z=-s*1.42;Y(.018,.012,.3,or,s*.34,-.15,z,g,5).rotation.z=s*.2}));
+const rot=[-1,1].map(s=>{const r=new THREE.Group();r.position.set(s*.1,.26,.12);g.add(r);const w=new THREE.Mesh(new THREE.PlaneGeometry(.18,.6),wm);w.rotation.x=-Math.PI/2;w.position.set(s*.05,0,-.3);r.add(w);return r});
 return{g,mats:[em],rot}},
 puncher:()=>hb({arm:0x2b1414,dk:0x110707,gl:0xff8800,ac:0xff5a00,head:0,hat:'ninja',face:'bandana'},(R,b)=>{const gv=Mt(0xc8321a,0x200400),tp=Mt(0xefe6d0);
 [b.rg[8],b.rg[5]].forEach(e=>{X(.15,.07,.15,tp,0,-.27,0,e);X(.25,.27,.27,gv,0,-.43,0,e);X(.18,.1,.1,gv,0,-.43,.16,e)});b.rg[6].rotation.x=.18}),
@@ -771,7 +779,7 @@ const g=new THREE.Group(),dk=new THREE.MeshStandardMaterial({color:0x2a1020,flat
 const b=new THREE.Mesh(new THREE.SphereGeometry(1.1,14,10),dk),c=new THREE.Mesh(new THREE.BoxGeometry(.4,.4,2),em);c.position.z=1.3;g.add(b);g.add(c);g.position.set(-R+6,2.8,0);room.add(g);PT={m:g,t:3,k:0}}
 function hurt(e,d,how){if(UA.on&&UA.id==='vamp'&&!MP.on)P.hp=Math.min(U.maxHp,P.hp+Math.min(5,d*.8));if(e.xai==='guardian'&&e.stun<=0&&!/parry|reflect|blast|slide/.test(how)){d*=.2;sfx('mparry')}if(PRAC.on)PR.hit++;sfx('hit');e.mesh.scale.setScalar(1.22*(e.bs||1));if(e.dz>0)d*=1.6;e.hp-=d;if(e.zone==='wt'){feed('dummy: '+(+d.toFixed(1))+' dmg ('+how+')','#ffb13b');if(e.hp<=0)e.hp=e.max}e.flash=.12;meter=Math.min(1100,meter+6);if(e.hp<=0)kill(e,how)}
 function chargeUlt(n){n=n||1;if(UA.on||ULT.ph||!SHOP.ultEq)return;ULT.ch=Math.min(5,ULT.ch+n);sfx('ui');if(ULT.ch>=5)uaActivate()}
-function kill(e,how){sfx('kill');if(LS&&!MP.on)P.hp=Math.min(U.maxHp,P.hp+LS);chargeUlt(e.boss?5:1);hamCharge(e.boss?5:1);burst(e.mesh.position,e.rusher?0xff8800:0xff2255,18);burst(e.mesh.position,0x9aa0b8,8);removeEnemy(e);if(e.boss){burst(e.mesh.position,0xffd23f,70);enemies.slice().forEach(x=>{burst(x.mesh.position,0xff8800,10);removeEnemy(x)});style('BOSS DOWN',500);feed('BOSS DEFEATED','#ffd23f')}kills++;Q.kill(e,how);if(!MP.on&&!PRAC.on&&!TUT.on&&!SBX.on){const c=Math.round(((e.boss?150:e.rusher?10:15)+Math.floor(round/2))*(e.cm||1)*CM*DD('cm'));addCoins(c);Q.add('kcoins',c);feed('+'+c+' coins','#ffd23f')}stopT=.07;shake=e.boss?.8:.25;
+function kill(e,how){sfx('kill');if(LS&&!MP.on)P.hp=Math.min(U.maxHp,P.hp+LS);chargeUlt(e.boss?5:1);hamCharge(e.boss?5:1);burst(e.mesh.position,e.rusher?0xff8800:0xff2255,18);burst(e.mesh.position,0x9aa0b8,8);removeEnemy(e);if(e.boss){burst(e.mesh.position,0xffd23f,70);enemies.slice().forEach(x=>{burst(x.mesh.position,0xff8800,10);removeEnemy(x)});style('BOSS DOWN',500);feed('BOSS DEFEATED','#ffd23f')}kills++;Q.kill(e,how);if(!MP.on&&!PRAC.on&&!TUT.on&&!SBX.on&&!CR.on){const c=Math.round(((e.boss?150:e.rusher?10:15)+Math.floor(round/2))*(e.cm||1)*CM*DD('cm'));addCoins(c);Q.add('kcoins',c);feed('+'+c+' coins','#ffd23f')}stopT=.07;shake=e.boss?.8:.25;
 if(T-lastKillT<1.3)combo++;else combo=1;lastKillT=T;
 if(how==='reflect'||how==='parry')style('deflect kill',150);else if(how==='blast')style('blast kill',100);else if(how==='gun'||how==='ricochet')style(how==='gun'?'gunned':'ricochet kill',how==='gun'?70:130);else{style('slash',60);if(lastKillW>=0&&lastKillW!==wi)style('variety',40);lastKillW=wi}
 if(combo>=2)style('multikill x'+combo,40*combo)}
@@ -930,7 +938,7 @@ function mkPick(id,x,z){const gr=new THREE.Group();gr.position.set(x,0,z);room.a
 function buildRoom(){
 if(room){scene.remove(room);room.traverse(o=>{if(o.geometry)o.geometry.dispose()})}
 room=new THREE.Group();scene.add(room);floor.visible=grid.visible=false;covers=[];pickups=[];
-const AI=MP.on?MAPI:SBX.on?SBX.map:(PRAC.on||TUT.on?-1:(SPA>=0?SPA:Math.random()*MAPS.length|0));hx=hz=26+Math.random()*8;if(AI>=0)hx=hz=Math.max(MAPS[AI][2],isBR()?36:round%5==0?32:0);else if(isBR()||round%5==0)hx=hz=38;if(PRAC.on)hx=hz=40;const hue=AI>=0?MAPS[AI][1]:[.93,.52,.12,.76,0][Math.floor(Math.random()*5)],trim=new THREE.Color().setHSL(hue,1,.55),dark=new THREE.Color().setHSL(hue,.45,.13);
+const AI=MP.on?MAPI:SBX.on?SBX.map:(PRAC.on||TUT.on?-1:(SPA>=0?SPA:Math.random()*MAPS.length|0));hx=hz=26+Math.random()*8;if(AI>=0)hx=hz=Math.max(MAPS[AI][2],isBR()?36:isBossRd()?32:0);else if(isBR()||isBossRd())hx=hz=38;if(PRAC.on)hx=hz=40;const hue=AI>=0?MAPS[AI][1]:[.93,.52,.12,.76,0][Math.floor(Math.random()*5)],trim=new THREE.Color().setHSL(hue,1,.55),dark=new THREE.Color().setHSL(hue,.45,.13);
 scene.background.setHSL(hue,.5,.05);scene.fog.color.copy(scene.background);sky.material.uniforms.c1.value.setHSL(hue,.6,.1);sky.material.uniforms.c2.value.setHSL((hue+.06)%1,.85,.42);
 const wm=new THREE.MeshStandardMaterial({color:dark,emissive:trim,emissiveIntensity:.12}),tm=new THREE.MeshBasicMaterial({color:trim});
 const box=(w,h,d,x,y,z,m)=>{const o=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);o.position.set(x,y,z);room.add(o);return o};
@@ -950,7 +958,7 @@ for(let i=0,n=PRAC.on?0:5+Math.floor(Math.random()*6);i<n;i++){const w=2+Math.ra
 if(Math.hypot(x,z)>hx-7||(SBX.on&&Math.hypot(x,z)<9)||(Math.abs(x)<5&&(z>hz-11||z<-hz+9))||pickups.some(k=>Math.hypot(k.x-x,k.z-z)<5))continue;
 if(!coverVis(AI,w,h,d,x,z)){box(w,h,d,x,h/2,z,wm);box(w+.1,.12,d+.1,x,h,z,tm)}covers.push({x,z,hw:w/2,hd:d/2,h})}
 term=mkTerminal(trim);term.position.set(0,0,-hz+3);room.add(term);term.visible=false;slotM=null;if(!SBX.on&&(Math.random()<.6||PRAC.on))mkSlot();PT=null;if(PRAC.on)pracZones();
-need=(isBR()||round%5==0)?1:Math.min(60,Math.round((4+round*3)*DD('cnt')));rspawned=0;state='fight';spawnT=2;P.pos.set(0,0,hz-4);P.vel.set(0,0,0);P.vy=0;P.sl=0;yaw=0;pitch=0}
+need=(isBR()||isBossRd())?1:Math.min(60,Math.round((4+round*3)*DD('cnt')));rspawned=0;state='fight';spawnT=2;P.pos.set(0,0,hz-4);P.vel.set(0,0,0);P.vy=0;P.sl=0;yaw=0;pitch=0}
 const nearPick=()=>pickups.find(k=>Math.hypot(P.pos.x-k.x,P.pos.z-k.z)<2.8);
 function takeWeapon(k){if(inv.includes(k.id)){const w=WEAPONS[k.id];if(w.gun){w.ammo=w.mag;w.rt=0}sfx('pick');feed('already carrying '+w.n,w.c);return}sfx('pick');if(inv.length<3){inv.push(k.id);slot=inv.length-1}else inv[slot]=k.id;room.remove(k.g);pickups.splice(pickups.indexOf(k),1);setWeapon(slot);feed('picked up '+WEAPONS[k.id].n,WEAPONS[k.id].c);if(MP.on||PRAC.on)MP.rsp.push({id:k.id,x:k.x,z:k.z,at:T+(MP.on?8:1.5)})}
 const nearSlot=()=>slotM&&!slotM.used&&Math.hypot(P.pos.x-slotM.x,P.pos.z-slotM.z)<3;
@@ -983,7 +991,7 @@ if(MP.on||PRAC.on)for(const r of MP.rsp.slice())if(T>=r.at){MP.rsp.splice(MP.rsp
 if(state==='fight'&&rspawned>=need&&!enemies.length){state='clear';projs.forEach(p=>scene.remove(p.m));projs.length=0;term.visible=true;if(isBR()){P.hp=Math.min(U.maxHp,P.hp+U.maxHp*.35);feed('+35% HP','#6ee86e')}style('room clear',150);feed('terminal online: reach the far wall','#ffd23f')}
 for(const k of pickups){k.m.rotation.y+=.03;k.m.position.y=1.6+Math.sin(T*2+k.x)*.2}
 const k=nearPick();let h='';if(k)h='E  take '+WEAPONS[k.id].n;else if(nearSlot())h='E  slot machine';else if(state==='clear'&&Math.hypot(P.pos.x-term.position.x,P.pos.z-term.position.z)<4)h='E  open terminal';
-$('hint').textContent=ULT.ph===2?'CLICK TO SLAM':h;$('rd').textContent=PRAC.on?'PRACTICE  ACC '+(PR.att?Math.min(100,Math.round(PR.hit/PR.att*100)):0)+'%':MP.on?'DUEL  '+MP.k+' : '+MP.d:(isBR()?'BOSS RUSH ':'Round ')+round+(state==='fight'?((isBR()||round%5==0)?': BOSS':': '+(need-rspawned+enemies.length)+' left'):': clear')}
+$('hint').textContent=ULT.ph===2?'CLICK TO SLAM':h;$('rd').textContent=PRAC.on?'PRACTICE  ACC '+(PR.att?Math.min(100,Math.round(PR.hit/PR.att*100)):0)+'%':MP.on?'DUEL  '+MP.k+' : '+MP.d:(isBR()?'BOSS RUSH ':CR.on?'Custom ':'Round ')+round+(state==='fight'?((isBR()||isBossRd())?': BOSS':': '+(need-rspawned+enemies.length)+' left'):': clear')}
 function gyAt(){let g=0;for(const c of covers)if(Math.abs(P.pos.x-c.x)<c.hw+.3&&Math.abs(P.pos.z-c.z)<c.hd+.3&&P.pos.y>=c.h-.4)g=Math.max(g,c.h);return g}
 function vert(dt){const on=P.pos.y<=gyAt()+.01;P.wj-=dt;P.h+=((MP.dd?.4:P.sl>0?.8:1.7)-P.h)*Math.min(1,12*dt);
 let nx=0,nz=0;{const rr=Math.hypot(P.pos.x,P.pos.z);if(hx-rr<1.1&&rr>0){nx=-P.pos.x/rr;nz=-P.pos.z/rr}}
@@ -1008,7 +1016,7 @@ slideStep(dt);P.pos.x+=(P.vel.x+kbx)*dt;P.pos.z+=(P.vel.z+kbz)*dt;kbx*=Math.pow(
 vert(dt);
 bounds();ultStep(dt);uaStep(dt);tutStep(dt);
 // spawns
-spawnT-=dt;const want=Math.min(10+(DD('cnt')>1?3:0),Math.round((2+round)*DD('cnt')));if(PRAC.on)pracStep(dt);if(!MP.on&&!PRAC.on&&!TUT.on&&state==='fight'&&spawnT<=0&&enemies.length<want&&rspawned<need){(isBR()||round%5==0)?spawnBoss():spawn(nextType(),1);rspawned++;spawnT=1.4}roomLogic();
+spawnT-=dt;const want=Math.min(10+(DD('cnt')>1?3:0),Math.round((2+round)*DD('cnt')));if(PRAC.on)pracStep(dt);if(!MP.on&&!PRAC.on&&!TUT.on&&state==='fight'&&spawnT<=0&&enemies.length<want&&rspawned<need){(isBR()||isBossRd())?spawnBoss():spawn(nextType(),1);rspawned++;spawnT=1.4}roomLogic();
 const ey=eye();
 for(const e of enemies.slice()){const m=e.mesh,tp=new THREE.Vector3(P.pos.x,m.position.y,P.pos.z),d=tp.clone().sub(m.position),dist=d.length();d.normalize();e.flash-=dt;e.cd-=dt;m.scale.setScalar(m.scale.x+((e.bs||1)-m.scale.x)*Math.min(1,14*dt));
 for(const q of e.mats||[m.material])q.emissiveIntensity=e.flash>0||e.aim>0?6:1;if(e.rot)for(const r of e.rot)r.rotation.y+=dt*35;
@@ -1059,7 +1067,7 @@ if(running){if(stopT>0){stopT-=dt;dt*=.06}if(ULT.ph===2)dt*=.3;T+=dt;update(dt);
 document.body.classList.toggle('atm',atMenu);vm.visible=!atMenu&&!cust&&!(MP.on&&MP.dd);AU.lvl=running?1+(tierOf()>=2)+(tierOf()>=4):0;
 if(cust){const a=now/2500,px=P.pos.x,pz=P.pos.z;cam.position.set(px+Math.sin(a)*4.2,1.8,pz+Math.cos(a)*4.2);cam.lookAt(px,1.1,pz)}else if(atMenu){const a=now/7000;cam.position.set(Math.sin(a)*27,11,Math.cos(a)*27);cam.lookAt(0,2,0)}else{cam.position.set(P.pos.x+(Math.random()-.5)*shake*.3,P.pos.y+P.h+camBob+(Math.random()-.5)*shake*.3,P.pos.z);cam.rotation.y=yaw;cam.rotation.x=pitch;{const ro=P.wall?-(P.wn[0]*Math.cos(yaw)-P.wn[1]*Math.sin(yaw))*.14:-((K.KeyD?1:0)-(K.KeyA?1:0))*.03+DE*Math.max(-1,Math.min(1,-(P.vel.x*Math.cos(yaw)-P.vel.z*Math.sin(yaw))/20))*.07;cam.rotation.z+=(ro-cam.rotation.z)*.15}}
 const adsOn=aim&&WEAPONS[wi].gun&&running&&!atMenu&&parryT<=0;aimT+=((adsOn?1:0)-aimT)*Math.min(1,14*rdt);if(aimT<.002)aimT=0;const fov=(baseFov+kick+P.mom*12+(P.sl>0?6:0)+DE*11)*(1-(WEAPONS[wi].gun===3?.45:.28)*aimT);if(Math.abs(cam.fov-fov)>.01){cam.fov=fov;cam.updateProjectionMatrix()}
-rob.visible=!atMenu||cust;if(rob.head){rob.head.visible=cust;rob.ar.visible=cust;if(rob.al)rob.al.visible=cust||!(WEAPONS[wi].gun||WEAPONS[wi].aoe||/^(Katana|Warhammer|Daggers)$/.test(WEAPONS[wi].n))}if(cust){rob.position.set(P.pos.x,P.pos.y,P.pos.z);rob.rotation.y=0;for(const o of rob.rg){o.rotation.x*=.9;o.rotation.y*=.9;o.rotation.z*=.9}}sky.position.copy(cam.position);sky.material.uniforms.t.value=now/1000;if(ULTRA)pxRender();else ren.render(scene,cam)}
+rob.visible=!atMenu||cust;if(rob.head){rob.head.visible=cust;rob.ar.visible=cust;if(rob.al)rob.al.visible=cust||!(WEAPONS[wi].gun||WEAPONS[wi].aoe||/^(Katana|Warhammer|Daggers)$/.test(WEAPONS[wi].n))}if(cust){rob.position.set(P.pos.x,P.pos.y,P.pos.z);rob.rotation.y=0;for(const o of rob.rg){o.rotation.x*=.9;o.rotation.y*=.9;o.rotation.z*=.9}}sky.position.copy(cam.position);sky.material.uniforms.t.value=now/1000;tsStep();if(ULTRA)pxRender();else ttDraw(null)}
 requestAnimationFrame(loop);
 
 function drawShop(){const c=$('shp');c.innerHTML='<h2>SHOP</h2><div id="coins2" style="font-size:26px;color:var(--gold);letter-spacing:3px"></div>';updCoins();
@@ -1254,7 +1262,7 @@ cp:M('uniform sampler2D t;void main(){gl_FragColor=texture2D(t,v);}',{t:{value:n
 function pxPass(m,u,t){for(const k in u)m.uniforms[k].value=u[k];PX.q.material=m;ren.setRenderTarget(t);ren.render(PX.sc,PX.oc)}
 function pxRender(){pxInit();const X=PX,ang=X.qa.angleTo(cam.quaternion),lin=X.pp.distanceTo(cam.position);X.qa.copy(cam.quaternion);X.pp.copy(cam.position);
 const tg=0;X.mb+=(tg-X.mb)*.5;
-ren.setRenderTarget(X.s);ren.render(scene,cam);
+ttDraw(X.s);
 pxPass(X.br,{t:X.s.texture},X.a);
 const px=1/X.hw,py=1/X.hh;
 pxPass(X.bl,{t:X.a.texture,d:new THREE.Vector2(px,0)},X.b);pxPass(X.bl,{t:X.b.texture,d:new THREE.Vector2(0,py)},X.a);
@@ -1264,7 +1272,7 @@ pxPass(X.cp,{t:cur.texture},null);X.i^=1}
 addEventListener('resize',()=>{if(ULTRA)pxFree()});
 
 // --- shoot keys: L and Z (checks both physical key and typed character) ---
-(function(){const isS=e=>/^(KeyL|KeyZ|KeyE)$/.test(e.code)||/^[lzeLZE]$/.test(e.key||''),ty=e=>/INPUT|TEXTAREA|SELECT/.test((e.target&&e.target.tagName)||'');
+(function(){const isS=e=>/^(KeyZ|KeyE)$/.test(e.code)||/^[zeZE]$/.test(e.key||''),ty=e=>/INPUT|TEXTAREA|SELECT/.test((e.target&&e.target.tagName)||'');
 addEventListener('keydown',e=>{if(!isS(e)||ty(e))return;if((e.code==='KeyE'||/^[eE]$/.test(e.key||''))&&running&&(nearPick()||nearSlot()||(SBX.on&&SBX.mode==='idle'&&Math.hypot(P.pos.x,P.pos.z)<3.6)||(state==='clear'&&term&&Math.hypot(P.pos.x-term.position.x,P.pos.z-term.position.z)<4)))return;e.preventDefault();if(e.repeat||!running||dead||frz())return;if(ULT.ph===2)ultDive();else{held=true;attack()}},true);
 addEventListener('keyup',e=>{if(isS(e))held=false},true);addEventListener('blur',()=>{held=false})})();
 // --- settings: live readouts + saved between sessions ---
@@ -1277,7 +1285,7 @@ var XP=0,XS={};
 function snipe(e){laser(e);const p=projs[projs.length-1];if(!p)return;p.v.multiplyScalar(2.3);p.dmg=30;p.m.scale.set(2.2,2.2,2.6);p.life=3;p.m.material.color.setHex(0xb58cff);sfx('boss')}
 function setX(e,t){e.xai=t;e.cm=({bomber:1.6,blinker:1.8,guardian:2.2,sniper:2.2,wasp:.8})[t];const k=({bomber:.7,blinker:.8,guardian:1.8,sniper:.7})[t];if(k)e.hp=e.max=Math.ceil(e.hp*k);
 if(t==='sniper'){e.sn=1;e.xai=0;e.bs=1.15}else if(t==='bomber')e.bs=.9;else if(t==='blinker'){e.tp=2.5;e.bs=1}else if(t==='guardian'){e.bs=1.25;const sh=new THREE.Mesh(new THREE.PlaneGeometry(2.2,2.4),new THREE.MeshBasicMaterial({color:0x37e0ff,transparent:true,opacity:.35,side:THREE.DoubleSide,blending:THREE.AdditiveBlending,depthWrite:false}));sh.position.set(0,0,1.1);e.mesh.add(sh);e.sh=sh}
-else if(t==='wasp'){e.bs=.5;e.hp=e.max=2;e.st=0;e.stt=1+Math.random()*1.5}applyModel(e);e.mesh.scale.setScalar(e.bs||1);
+else if(t==='wasp'){e.bs=1.5;e.hp=e.max=2;e.st=0;e.stt=1+Math.random()*1.5}applyModel(e);e.mesh.scale.setScalar(e.bs||1);
 if(!XS[t]){XS[t]=1;feed({sniper:'SNIPER: slow charged shot - parry it',bomber:'BOMBER: kill it before it detonates',blinker:'BLINKER: teleports behind you',guardian:'GUARDIAN: shielded - stagger it with a parry',wasp:'WASPS: diving swarm'}[t],'#b58cff')}}
 function xt(e,r){if(XP||round<3||PRAC.on||MP.on||Math.random()>Math.min(.5,.12+round*.04))return 0;const L=r?['bomber','blinker','guardian']:['sniper','wasp'],t=L[Math.random()*L.length|0];setX(e,t);
 if(t==='wasp'){XP=1;for(let i=0;i<2;i++){spawn(0);setX(enemies[enemies.length-1],'wasp')}XP=0}return 1}
@@ -1367,7 +1375,7 @@ const TS=[
 {t:'JUMP',d:'Press SPACE to jump. Press it again against a wall to wall-jump.',c:()=>P.pos.y>gyAt()+.4},
 {t:'DASH',d:'Press SHIFT to dash. Dashing is fast and builds momentum.',c:()=>P.dash>0},
 {t:'SLIDE',d:'Run forward with W, then press C to slide.',c:()=>TUT.f.sl},
-{t:'ATTACK',d:'Smash the target dummy with LEFT CLICK (or J / Z / L). Kill enemies to build your score.',i(){tutSpawn(1,1)},c:()=>TUT.f.kill,rs:()=>tutSpawn(1,1)},
+{t:'ATTACK',d:'Smash the target dummy with LEFT CLICK (or J / Z). Kill enemies to build your score.',i(){tutSpawn(1,1)},c:()=>TUT.f.kill,rs:()=>tutSpawn(1,1)},
 {t:'PARRY A SHOT',d:'A drone is aiming at you. When its bolt flashes gold, press F to bounce it back.',i(){tutSpawn(0)},c:()=>TUT.f.rf,rs:()=>tutSpawn(0)},
 {t:'PARRY A SWING',d:'A rusher is coming. When it winds up and flashes yellow, press F to stagger it, then hit it.',i(){tutSpawn(1)},c:()=>TUT.f.mp,rs:()=>tutSpawn(1)},
 {t:'ULTIMATES',d:'Kills fill the ultimate bar on the right of the screen. When it is full, your equipped ultimate activates. Get ultimates from crates in the ULTIMATES menu.',p:()=>TUT.t/10,c:()=>TUT.t>10},
@@ -1494,7 +1502,7 @@ gnote('DIFFICULTY');r=row();DIFFS.forEach(d=>sel(r,d.n,DF===d,()=>{DF=d;showSP()
 gnote('Easy: weaker, slower enemies, fewer coins. Impossible: far tougher enemies and bosses, faster attacks, more coins.');
 const u=SHOP.ultEq&&UDEF[SHOP.ultEq];gnote('Ultimate for this run: '+(u?u.n:'none')+'. It locks once the run starts.');
 let brb=0;try{brb=+localStorage.getItem('parryBR')||0}catch(e){}gnote('BOSS RUSH: a boss every round, back to back, each one tougher than the last. Beat one, grab a terminal upgrade, and the next arrives'+(brb?'. Your best: round '+brb:'')+'.');
-gnote('SANDBOX: design your own weapons and models, then fight waves you start yourself from a button in the middle of the arena.');const st=gbtn('START RUN',()=>runStart(0));st.style.color='var(--gold)';st.style.borderColor='var(--gold)';const bb=gbtn('BOSS RUSH',()=>runStart(1));bb.style.color='#ff2d6f';bb.style.borderColor='#ff2d6f';const sx=gbtn('SANDBOX',showSbx);sx.style.color='#ffb13b';sx.style.borderColor='#ffb13b';
+gnote('CUSTOM RUN: a normal run where YOU pick which enemy types can spawn and which never do. No coins are earned.');gnote('SANDBOX: design your own weapons and models, then fight waves you start yourself from a button in the middle of the arena.');const st=gbtn('START RUN',()=>runStart(0));st.style.color='var(--gold)';st.style.borderColor='var(--gold)';const bb=gbtn('BOSS RUSH',()=>runStart(1));bb.style.color='#ff2d6f';bb.style.borderColor='#ff2d6f';const sx=gbtn('SANDBOX',showSbx);sx.style.color='#ffb13b';sx.style.borderColor='#ffb13b';const cx=gbtn('CUSTOM RUN',showCR);cx.style.color='#37e0ff';cx.style.borderColor='#37e0ff';
 gbtn('BACK',showMM)})}
 try{const a=+localStorage.getItem('parryArena');if(a>=0&&a<MAPS.length)SPA=a;const d=localStorage.getItem('parryDiff');if(d!==null&&DIFFS[+d])DF=DIFFS[+d]}catch(e){}
 
@@ -1913,4 +1921,68 @@ var _upBx=update;update=function(dt){const r=_upBx.apply(this,arguments);bxStep(
 var _klBx=kill;kill=function(e,h){if(e&&e.boss)bxClear();return _klBx.apply(this,arguments)};
 var _rsBx=reset;reset=function(){bxClear();return _rsBx.apply(this,arguments)};
 var _hudBx=hud;hud=function(){_hudBx.apply(this,arguments);const b=enemies.find(x=>x.boss);if(b)$('bn').textContent=b.name+'  -  PHASE '+(b.p4?4:b.ph)};
+
+// ===== TITLE SHOWCASE: the menu background crossfades between arenas, each with frozen enemies =====
+var SHW={armed:0,own:0,cm:0,t:0,hold:9,fade:2.4,tr:0,old:null,cs:null,os:null,ns:null,rt:null,mat:null,w:0,h:0,l:performance.now()};
+function tsSnap(){const u=sky.material.uniforms;return{bg:scene.background.clone(),fg:scene.fog.color.clone(),c1:u.c1.value.clone(),c2:u.c2.value.clone(),pc:pl.color.clone(),pi:pl.intensity,hi:HEMI.intensity}}
+function tsApply(a){const u=sky.material.uniforms;scene.background.copy(a.bg);scene.fog.color.copy(a.fg);u.c1.value.copy(a.c1);u.c2.value.copy(a.c2);pl.color.copy(a.pc);pl.intensity=a.pi;HEMI.intensity=a.hi}
+function tsEnemies(g,R,mi){
+let sd=(Math.random()*4294967296)>>>0;const a0=Math.random()*6.2832,rnd=()=>(sd=(sd*1664525+1013904223)>>>0)/4294967296;
+const GR=['puncher','brute','sprinter','gunner','guardian','blinker','bomber'],FL=['drone','heavy','sniper','wasp'],pk=(a,i)=>a[(i+mi*2)%a.length],N=10,spots=[];
+for(let i=0;i<N;i++){const fly=i%4===3,k=fly?pk(FL,i>>2):pk(GR,i-(i>>2));let x=0,z=0,ok=0;
+for(let t=0;t<30&&!ok;t++){const a=a0+(i+rnd()*.9)/N*6.2832,r=R*(.2+.46*rnd());x=Math.cos(a)*r;z=Math.sin(a)*r;
+ok=!covers.some(c=>Math.abs(x-c.x)<c.hw+1.8&&Math.abs(z-c.z)<c.hd+1.8)&&!pickups.some(q=>Math.hypot(q.x-x,q.z-z)<3.5)&&!(slotM&&Math.hypot(slotM.x-x,slotM.z-z)<4)&&Math.hypot(x,z)>4.5&&Math.hypot(x,z-(hz-4))>6&&spots.every(q=>Math.hypot(q[0]-x,q[1]-z)>4)}
+if(!ok)continue;spots.push([x,z]);
+try{const H=enemyModel(k),m=H.g,sc=k==='wasp'?3:fly?1.7:1.6;m.scale.setScalar(sc);m.position.set(x,fly?3.2+rnd()*2.2:.9*sc,z);m.lookAt(0,m.position.y,0);m.rotation.y+=(rnd()-.5)*1.1;
+if(!fly){if(H.legs&&H.legs[0]&&H.legs[1]){H.legs[0].rotation.x=.4;H.legs[1].rotation.x=-.4}if(H.arm)H.arm.rotation.x=-(.6+rnd()*.8);if(H.arm2)H.arm2.rotation.x=-(.2+rnd()*.6)}
+g.add(m)}catch(e){}}}
+function tsBuild(mi,keep){const sv=[SPA,SBX.on,PRAC.on,TUT.on];SHW.own=1;SPA=mi;SBX.on=0;PRAC.on=0;TUT.on=0;if(keep)room=null;
+try{buildRoom()}finally{SHW.own=0;SPA=sv[0];SBX.on=sv[1];PRAC.on=sv[2];TUT.on=sv[3]}
+tsEnemies(room,hx,mi);return tsSnap()}
+function tsInit(){if(MP.on)return 0;try{enemies.concat().forEach(removeEnemy);projs.forEach(p=>scene.remove(p.m));projs.length=0;bul.concat().forEach(b=>scene.remove(b.m));bul.length=0}catch(e){}
+SHW.cm=Math.random()*MAPS.length|0;SHW.cs=tsBuild(SHW.cm,0);SHW.armed=1;SHW.t=0;SHW.tr=0;return 1}
+function tsStart(){SHW.cm=(SHW.cm+1)%MAPS.length;SHW.old=room;SHW.os=SHW.cs;SHW.ns=tsBuild(SHW.cm,1);SHW.tr=1;SHW.t=0}
+function tsDrop(o){if(!o)return;scene.remove(o);o.traverse(m=>{if(m.geometry)m.geometry.dispose();[].concat(m.material||[]).forEach(x=>x.dispose&&x.dispose())})}
+function tsFinish(){tsDrop(SHW.old);SHW.old=null;if(room)room.visible=true;SHW.cs=SHW.ns;tsApply(SHW.cs);SHW.tr=0;SHW.t=0}
+function tsKill(){tsDrop(SHW.old);SHW.old=null;if(room)room.visible=true;SHW.tr=0;SHW.armed=0;SHW.t=0}
+function tsRT(){const z=new THREE.Vector2();ren.getDrawingBufferSize(z);const w=z.x|0,h=z.y|0;if(SHW.rt&&SHW.w===w&&SHW.h===h)return;
+if(SHW.rt)SHW.rt.forEach(t=>t.dispose());const o={minFilter:THREE.LinearFilter,magFilter:THREE.LinearFilter,format:THREE.RGBAFormat},
+mk=()=>{const t=THREE.WebGLMultisampleRenderTarget&&ren.capabilities.isWebGL2?new THREE.WebGLMultisampleRenderTarget(w,h,o):new THREE.WebGLRenderTarget(w,h,o);if(t.samples!==undefined)t.samples=4;return t};
+SHW.rt=[mk(),mk()];SHW.w=w;SHW.h=h;
+if(!SHW.mat){SHW.mat=new THREE.ShaderMaterial({uniforms:{a:{value:null},b:{value:null},k:{value:0}},vertexShader:'varying vec2 v;void main(){v=uv;gl_Position=vec4(position.xy,0.,1.);}',fragmentShader:'varying vec2 v;uniform sampler2D a,b;uniform float k;void main(){gl_FragColor=vec4(mix(texture2D(a,v).rgb,texture2D(b,v).rgb,k),1.);}',depthTest:false,depthWrite:false});
+SHW.q=new THREE.Mesh(new THREE.PlaneGeometry(2,2),SHW.mat);SHW.q.frustumCulled=false;SHW.sc=new THREE.Scene();SHW.sc.add(SHW.q);SHW.oc=new THREE.OrthographicCamera(-1,1,1,-1,0,1)}}
+function tsStep(){const n=performance.now(),dt=Math.min(.1,(n-SHW.l)/1000);SHW.l=n;if(!atMenu||MP.on)return;if(!SHW.armed&&!tsInit())return;
+if(SHW.tr){SHW.t+=dt;if(SHW.t>=SHW.fade)tsFinish()}else if(!cust&&!document.hidden){SHW.t+=dt;if(SHW.t>=SHW.hold)tsStart()}}
+function ttDraw(target){
+if(SHW.armed&&atMenu&&SHW.tr&&SHW.old&&room){tsRT();const A=SHW.rt[0],B=SHW.rt[1],nw=room;
+SHW.old.visible=true;nw.visible=false;tsApply(SHW.os);ren.setRenderTarget(A);ren.render(scene,cam);
+SHW.old.visible=false;nw.visible=true;tsApply(SHW.ns);ren.setRenderTarget(B);ren.render(scene,cam);
+let k=Math.min(1,SHW.t/SHW.fade);k=k*k*k*(k*(k*6-15)+10);const u=SHW.mat.uniforms;u.a.value=A.texture;u.b.value=B.texture;u.k.value=k;
+ren.setRenderTarget(target);ren.render(SHW.sc,SHW.oc);return}
+if(SHW.armed&&atMenu&&SHW.cs)tsApply(SHW.cs);
+ren.setRenderTarget(target);ren.render(scene,cam)}
+{const _b=buildRoom;buildRoom=function(){if(!SHW.own)tsKill();return _b.apply(this,arguments)}}
+
+// ===== CUSTOM RUN: pick which enemies can spawn =====
+var CRK={drone:{r:0,n:'Drone',c:'#ff2255'},heavy:{r:0,n:'Heavy',c:'#ff5d2e'},sniper:{r:0,n:'Sniper',c:'#b58cff'},wasp:{r:0,n:'Wasp',c:'#ffb13b'},gunner:{r:0,n:'Gunner',c:'#ffc233'},
+puncher:{r:1,n:'Puncher',c:'#ff8800'},brute:{r:1,n:'Brute',c:'#ff3300'},sprinter:{r:1,n:'Sprinter',c:'#ffe066'},bomber:{r:1,n:'Bomber',c:'#ff2200'},blinker:{r:1,n:'Blinker',c:'#b58cff'},guardian:{r:1,n:'Guardian',c:'#37e0ff'}};
+for(const k in CRK)CR.en[k]=1;
+try{const sv=JSON.parse(localStorage.getItem('parryCR')||'null');if(sv){for(const k in CRK)if(k in sv.en)CR.en[k]=sv.en[k]?1:0;CR.boss=sv.boss===0?0:1}}catch(e){}
+function crSave(){try{localStorage.setItem('parryCR',JSON.stringify({en:CR.en,boss:CR.boss}))}catch(e){}}
+function isBossRd(){return round%5===0&&(!CR.on||!!CR.boss)}
+function crOn(){return Object.keys(CRK).filter(k=>CR.en[k])}
+function crSpawn(fr){let L=crOn();if(!L.length)L=['drone'];const w=fr===undefined?L:L.filter(k=>fr?CRK[k].r:!CRK[k].r),P2=w.length?w:L;CR.k=P2[Math.random()*P2.length|0];try{spawn(CRK[CR.k].r,1)}finally{CR.k=null}}
+function crApply(e,k){const V={heavy:['heavy',1.45,2,1,1,2],brute:['brute',1.35,2.4,.75,1.6,2],sprinter:['sprinter',.85,.6,1.8,.7,1.4]}[k];
+if(V){e.bs=V[1];e.mesh.scale.setScalar(V[1]);e.hp=e.max=Math.ceil(e.hp*V[2]);e.sp=V[3];e.dm=V[4];e.cm=V[5];e.vn=V[0];return}
+if(k==='sniper'||k==='bomber'||k==='blinker'||k==='guardian'||k==='wasp'){setX(e,k);if(k==='wasp'&&!XP){XP=1;try{for(let i=0;i<2;i++)spawn(0)}finally{XP=0}}}}
+function showCR(){openGP('cr',()=>{gp.innerHTML='<h2>CUSTOM RUN</h2>';const row=()=>{const d=document.createElement('div');d.style.cssText='display:flex;flex-wrap:wrap;gap:8px;justify-content:center;width:100%';gp.appendChild(d);return d},
+tg=(r,t,on,f,col)=>{const b=gbtn(t+(on?': ON':': OFF'),f);b.style.borderColor=on?col:'#555';b.style.color=on?col:'#777';b.style.opacity=on?1:.6;r.appendChild(b)};
+gnote('FLYING ENEMIES');let r=row();['drone','heavy','sniper','wasp','gunner'].forEach(k=>tg(r,CRK[k].n.toUpperCase(),CR.en[k],()=>{CR.en[k]=CR.en[k]?0:1;crSave();showCR()},CRK[k].c));
+gnote('MELEE ENEMIES');r=row();['puncher','brute','sprinter','bomber','blinker','guardian'].forEach(k=>tg(r,CRK[k].n.toUpperCase(),CR.en[k],()=>{CR.en[k]=CR.en[k]?0:1;crSave();showCR()},CRK[k].c));
+gnote('BOSSES');r=row();tg(r,'BOSS EVERY 5 ROUNDS',CR.boss,()=>{CR.boss=CR.boss?0:1;crSave();showCR()},'#ff2d6f');
+r=row();const al=gbtn('ALL ON',()=>{for(const k in CRK)CR.en[k]=1;CR.boss=1;crSave();showCR()}),no=gbtn('ALL OFF',()=>{for(const k in CRK)CR.en[k]=0;crSave();showCR()});r.appendChild(al);r.appendChild(no);
+const n=crOn().length;gnote(n?n+' of '+Object.keys(CRK).length+' enemy types enabled. Disabled enemies never spawn, including boss minions. Arena and difficulty use your SELECT RUN choices.':'Turn on at least one enemy type to start.');
+const st=gbtn('START CUSTOM RUN',()=>{if(!crOn().length){sfx('hurt');return}CR.on=1;CR.go=1;runStart(0)});st.style.color='var(--gold)';st.style.borderColor='var(--gold)';st.style.opacity=n?1:.4;
+gbtn('BACK',showSP)})}
+{const _r=reset;reset=function(){if(!CR.go)CR.on=0;CR.go=0;return _r.apply(this,arguments)}}
 </script></body></html>
